@@ -5,35 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de idade</title>
+    <!-- Link para o arquivo de estilos CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <!-- Cabeçalho da página -->
     <header>
         <h1>Verificador de idade</h1>
     </header>
+
+    <!-- Seção principal do conteúdo -->
     <section>
+        <!-- Div para o formulário -->
         <div>
+            <!-- Campo para inserir a data de nascimento -->
             <p>Data de Nascimento: 
                 <input type="number" name="txtano" id="txtano" min="0">
             </p>
+            <!-- Opções de gênero -->
             <p>Genero:
                 <input type="radio" name="radsex" id="mas" checked>
                 <label for="mas">Masculino</label>
                 <input type="radio" name="radsex" id="fem">
                 <label for="fem">Feminino</label>
             </p>
+            <!-- Botão para verificar a idade -->
             <p>
                 <input type="button" value="verificar" onclick="verificar()">
             </p>
         </div>
-        <div id="res">
-
-        </div>
+        <!-- Div para exibir o resultado -->
+        <div id="res"></div>
     </section>
+
+    <!-- Rodapé da página -->
     <footer>
+        <!-- Texto de crédito -->
         <p>&copy; Eduardo de Souza Santos</p>
     </footer>
+
+    <!-- Script JavaScript -->
     <script src="./js/scripts.js" defer></script>
 </body>
 

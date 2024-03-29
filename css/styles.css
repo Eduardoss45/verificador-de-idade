@@ -1,27 +1,47 @@
+/* Estilos para o corpo da página */
 body {
+    /* Define a cor de fundo */
     background-color: rgb(70, 142, 236);
+    /* Define a fonte e o tamanho do texto */
     font: normal 15pt Arial, Helvetica, sans-serif;
 }
 
+/* Estilos para o cabeçalho da página */
 header {
+    /* Define a cor do texto como branco */
     color: white;
+    /* Centraliza o texto */
     text-align: center;
 }
 
+/* Estilos para a seção principal da página */
 section {
+    /* Define a cor de fundo como branca */
     background-color: white;
+    /* Adiciona cantos arredondados */
     border-radius: 10px;
+    /* Adiciona espaço interno */
     padding: 15px;
+    /* Define a largura da seção */
     width: 500px;
+    /* Centraliza a seção na página */
     margin: auto;
+    /* Adiciona uma sombra à seção */
     box-shadow: rgba(0, 0, 0, 0.39) 3px 3px 10px;
 }
 
+/* Estilos para o rodapé da página */
 footer {
+    /* Centraliza o texto */
     text-align: center;
+    /* Define o estilo do texto como itálico */
     font-style: italic;
+    /* Define a cor do texto como branco */
     color: white;
 }
+
+/* Estilos para as imagens */
 img {
+    /* Faz com que a imagem ocupe 100% da largura do contêiner */
     width: 100%;
 }
